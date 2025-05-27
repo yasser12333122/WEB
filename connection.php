@@ -1,7 +1,7 @@
 <?php
-$server = "localhost";
-$username = "root";
-$password = "";
+$server = "dbb.mysql.database.azure.com";
+$username = "admin2";
+$password = "admin123##";
 $db = "blog";
 try {
     $pdo = new PDO("mysql:host=$server;dbname=$db", $username, $password);
